@@ -38,6 +38,13 @@ a {
     cursor: pointer;
 }
 
+.sub-heading {
+    font-weight: 700;
+    font-size: 4.2rem;
+    line-height: 1.33;
+    color: #0D1111;
+}
+
 .main-content {
     width: 1170px;
     max-width: calc(100% - 48px);
@@ -106,7 +113,7 @@ nav a:hover,
     transition: all 0.3s ease-out;
 }
 
-.action .btn-action:hover{
+.action .btn-action:hover {
     background: var(--primary-color);
 }
 
@@ -116,9 +123,9 @@ nav a:hover,
     font-size: 1.6rem;
 }
 
-.action .btn-action:hover a{
+.action .btn-action:hover a {
     color: #FFFFFF;
-} 
+}
 
 /* Hero */
 .hero {
@@ -167,7 +174,7 @@ nav a:hover,
     transition: all .3s ease-out;
 }
 
-.cta .btn:hover{
+.cta .btn:hover {
     opacity: 0.8;
 }
 
@@ -184,7 +191,7 @@ nav a:hover,
     transition: all .3s ease-out;
 }
 
-.cta .play-video:hover{
+.cta .play-video:hover {
     background: var(--primary-color);
 }
 
@@ -195,7 +202,7 @@ nav a:hover,
     padding: 22px 24px;
 }
 
-.cta .play-video .play:hover svg path{
+.cta .play-video .play:hover svg path {
     fill: #fff;
 }
 
@@ -362,3 +369,75 @@ nav a:hover,
     font-size: 1rem;
     color: #FFFFFF;
 }
+
+/* Features */
+.features {
+    background: #fff;
+    padding: 70px 0;
+}
+
+.features-about .sub-title {
+    margin-top: 60px;
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: #767E7E;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.features-about .sub-heading {
+    margin-top: 18px;
+    max-width: 577px;
+}
+
+.features-about .desc {
+    margin-top: 18px;
+    max-width: 590px;
+    font-size: 1.8rem;
+    line-height: 1.5;
+    color: #767E7E;
+}
+
+.features-list {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    width: 87.5%;
+}
+
+.feature-item .feature-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 102px;
+    height: 106px;
+    background: var(--bg-feature-item);
+    border-radius: 18px;
+}
+
+.feature-item .feature-name {
+    margin-top: 26px;
+    font-weight: 600;
+    font-size: 2rem;
+    color: #0D1111;
+}
+
+.feature-item .desc {
+    margin-top: 16px;
+    font-size: 1.6rem;
+    line-height: 1.69;
+    color: #9DA6A5;
+}
+
+.feature-item:first-child .desc{
+    max-width: 168px;
+}
+
+.feature-item:nth-child(2) .desc{
+    max-width: 223px;
+}
+
+.feature-item:last-child .desc{
+    max-width: 224px;
+}
+
