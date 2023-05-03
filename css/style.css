@@ -812,3 +812,45 @@ nav a:hover,
     color: #FFFFFF;
 }
 
+/* Footer */
+.footer {
+    margin-top: 131px;
+    padding-bottom: 50px;
+}
+
+.footer .footer-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-list .footer-heading {
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 1.5;
+    color: #2E2E2E;
+    cursor: pointer;
+}
+
+.footer-list .footer-item ul li {
+    margin-top: 18px;
+    font-size: 1.6rem;
+    line-height: 1.8;
+    color: #535353;
+    cursor: pointer;
+}
+
+.footer-list .social li i {
+    width: 11px;
+    height: 9px;
+    color: #0B120B;
+    margin-right: 13px;
+}
+
+.copyright {
+    margin-top: 80px;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 1.5;
+    text-align: center;
+    color: #B0B5B4;
+}
