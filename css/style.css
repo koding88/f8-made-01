@@ -151,7 +151,10 @@ nav a:hover,
 /* Hero left */
 
 .hero-about-left .sub-title {
+    margin-top: 8px;
+    font-weight: 400;
     font-size: 1.4rem;
+    letter-spacing: 0;
     color: #767E7E;
 }
 
@@ -481,10 +484,11 @@ nav a:hover,
 .courses-list .courses-item {
     position: relative;
     border-radius: 8px;
+    height: 517px;
     cursor: pointer;
 }
 
-.courses-item:hover .overlay{
+.courses-item:hover .overlay {
     background: transparent;
     opacity: 1;
 }
@@ -502,7 +506,7 @@ nav a:hover,
     transition: all .3s ease-out;
 }
 
-.overlay.one:first-child{
+.overlay.one:first-child {
     opacity: 0.98;
 }
 
@@ -515,9 +519,9 @@ nav a:hover,
 
 .courses-item .courses-content {
     position: absolute;
+    bottom: 16px;
     left: 17px;
     right: 17px;
-    bottom: -69px;
     padding: 18px 25px 29px 25px;
     background: #FFFFFF;
     box-shadow: 0px 16px 90px rgba(0, 0, 0, 0.05);
@@ -576,4 +580,31 @@ nav a:hover,
     height: 6px;
     background: var(--primary-color);
     border-radius: 50%;
+}
+
+/* Countdown */
+.countdown {
+    margin-top: 252px;
+}
+
+.count-qty {
+    display: flex;
+    justify-content: center;
+    gap: 202px;
+}
+
+.qty-item {
+    text-align: center;
+}
+
+.qty-item .qty-number {
+    font-weight: 700;
+    font-size: 6.2rem;
+    color: #0D1111;
+}
+
+.qty-item .qty-desc {
+    margin-top: 34px;
+    font-size: 1.8rem;
+    color: #767E7E;
 }
