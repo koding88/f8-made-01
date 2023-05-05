@@ -79,12 +79,11 @@ a {
 }
 
 .nav {
-    margin-left: 235px;
+    margin-left: 215px;
 }
 
 .nav ul {
     display: flex;
-    gap: 40px;
 }
 
 .nav ul li.active a {
@@ -93,8 +92,10 @@ a {
 }
 
 .nav ul a {
+    display: inline-block;
     font-size: 1.6rem;
     color: #2F3A3B;
+    padding: 16px 18px;
 }
 
 nav a:hover,
@@ -109,7 +110,7 @@ nav a:hover,
 .action .action-link {
     font-size: 1.6rem;
     color: #494949;
-    margin-right: 24px;
+    padding: 16px 18px;
 }
 
 .action .btn-action {
