@@ -46,7 +46,6 @@ a {
 }
 
 .sub-title {
-    margin-top: 60px;
     font-weight: 700;
     font-size: 1.2rem;
     color: #767E7E;
@@ -140,7 +139,6 @@ nav a:hover,
 /* Hero */
 .hero {
     margin-top: 38px;
-    padding-bottom: 70px;
 }
 
 .hero .body {
@@ -152,7 +150,7 @@ nav a:hover,
 /* Hero left */
 
 .hero-about-left .sub-title {
-    margin-top: 8px;
+    margin-top: -5px;
     font-weight: 400;
     font-size: 1.4rem;
     letter-spacing: 0;
@@ -390,14 +388,17 @@ nav a:hover,
 
 /* Features */
 .features {
-    background: #fff;
-    margin-top: 70px;
-    padding-bottom: 70px;
+    margin-top: 79px;
+    padding: 70px 0;
 }
 
 .features-about .sub-heading {
     margin-top: 18px;
     max-width: 577px;
+}
+
+.features-about .sub-title{
+    margin-top: 60px;
 }
 
 .features-about .desc {
@@ -453,8 +454,7 @@ nav a:hover,
 
 /* Courses */
 .courses {
-    background: #fff;
-    margin-top: 60px;
+    padding: 60px 0;
 }
 
 .courses-about .sub-heading {
@@ -590,7 +590,8 @@ nav a:hover,
 
 /* Countdown */
 .countdown {
-    margin-top: 261px;
+    margin-top: 101px;
+    padding: 100px 0 70px;
 }
 
 .count-qty {
@@ -815,8 +816,8 @@ nav a:hover,
 
 /* Footer */
 .footer {
-    margin-top: 131px;
-    padding-bottom: 50px;
+    margin-top: 80px;
+    padding: 50px 0;
 }
 
 .footer .footer-list {
