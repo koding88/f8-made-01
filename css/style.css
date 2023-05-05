@@ -389,7 +389,7 @@ nav a:hover,
 /* Features */
 .features {
     margin-top: 79px;
-    padding: 70px 0;
+    padding-top: 70px;
 }
 
 .features-about .sub-heading {
@@ -397,7 +397,7 @@ nav a:hover,
     max-width: 577px;
 }
 
-.features-about .sub-title{
+.features-about .sub-title {
     margin-top: 60px;
 }
 
@@ -455,6 +455,10 @@ nav a:hover,
 /* Courses */
 .courses {
     padding: 60px 0;
+}
+
+.courses-about .sub-title{
+    margin-top: 70px;
 }
 
 .courses-about .sub-heading {
@@ -688,6 +692,13 @@ nav a:hover,
     border: none;
 }
 
+.testimonial-buttons .testimonial-btn:hover,
+.testimonial-buttons .testimonial-btn:hover .arrow {
+    background: #FFFFFF;
+    box-shadow: 0px 22px 50px rgba(0, 0, 0, 0.05);
+    stroke: #1EBFC1;
+}
+
 .testimonial-btn+.testimonial-btn {
     margin-left: 26px;
 }
@@ -807,11 +818,21 @@ nav a:hover,
     background: #2AC9BF;
 }
 
+.cta .btn-cta:hover
+{
+    background: #fff;
+    border: 1px solid #2AC9BF;
+}
+
 .cta .btn-cta a {
     font-weight: 600;
     font-size: 1.8rem;
     line-height: 1.5;
     color: #FFFFFF;
+}
+
+.cta .btn-cta:hover a{
+    color: #2AC9BF;
 }
 
 /* Footer */
@@ -833,19 +854,34 @@ nav a:hover,
     cursor: pointer;
 }
 
-.footer-list .footer-item ul li {
+.footer-item ul li a {
+    display: inline-block;
     margin-top: 18px;
     font-size: 1.6rem;
     line-height: 1.8;
     color: #535353;
     cursor: pointer;
+    transition: .3s ease-in;
 }
 
-.footer-list .social li i {
-    width: 11px;
-    height: 9px;
-    color: #0B120B;
-    margin-right: 13px;
+.footer-list .footer-item ul li:hover{
+    opacity: 0.5;
+}
+
+.footer-list .footer-item .social a{
+    display: flex;
+    align-items: center;
+}
+
+.footer-item .social-icon{
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+}
+
+.footer-item .social-name{
+    margin-left: 10px;
 }
 
 .copyright {
