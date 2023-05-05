@@ -457,7 +457,7 @@ nav a:hover,
     padding: 60px 0;
 }
 
-.courses-about .sub-title{
+.courses-about .sub-title {
     margin-top: 70px;
 }
 
@@ -594,8 +594,8 @@ nav a:hover,
 
 /* Countdown */
 .countdown {
-    margin-top: 101px;
-    padding: 100px 0 70px;
+    margin-top: 89px;
+    padding-top: 100px;
 }
 
 .count-qty {
@@ -622,7 +622,8 @@ nav a:hover,
 
 /* Testimonial */
 .testimonial {
-    margin-top: 265px;
+    margin-top: 165px;
+    padding-top: 100px;
     padding-bottom: 20px;
 }
 
@@ -818,8 +819,7 @@ nav a:hover,
     background: #2AC9BF;
 }
 
-.cta .btn-cta:hover
-{
+.cta .btn-cta:hover {
     background: #fff;
     border: 1px solid #2AC9BF;
 }
@@ -831,7 +831,7 @@ nav a:hover,
     color: #FFFFFF;
 }
 
-.cta .btn-cta:hover a{
+.cta .btn-cta:hover a {
     color: #2AC9BF;
 }
 
@@ -864,23 +864,23 @@ nav a:hover,
     transition: .3s ease-in;
 }
 
-.footer-list .footer-item ul li:hover{
+.footer-list .footer-item ul li:hover {
     opacity: 0.5;
 }
 
-.footer-list .footer-item .social a{
+.footer-list .footer-item .social a {
     display: flex;
     align-items: center;
 }
 
-.footer-item .social-icon{
+.footer-item .social-icon {
     width: 20px;
     height: 20px;
     text-align: center;
     line-height: 20px;
 }
 
-.footer-item .social-name{
+.footer-item .social-name {
     margin-left: 10px;
 }
 
